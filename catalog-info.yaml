@@ -1,27 +1,27 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cellulant_Sonar
+  name: Absa-ghana-self-registration-menu
   description: |
     Backstage working with SoanrQube.
   annotations:
     sonarqube.org/project-key: absa-ghana-self-registration-menu
+    gitlab.com/project-id: '3620'
 spec:
-  type: library
+  type: website
   owner: cicd
   lifecycle: testing
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cellulant-gitlab
+  name: Cellulant-Kubernetes
   description: |
     GitLab service
   labels:
-    system: gitlab
+    system: kubernetes
     lifecycle: production
   annotations:
-    gitlab.com/project-id: '3620'
     backstage.io/kubernetes-id: banebp-sample
 spec:
   lifecycle: production
@@ -31,12 +31,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cellulant_Sonar2
+  name: Absamonyglobvalidator
   description: |
     Backstage working with SoanrQube.
   annotations:
     sonarqube.org/project-key: absamonyglobvalidator
 spec:
-  type: library
+  type: website
   owner: cicd
   lifecycle: testing
