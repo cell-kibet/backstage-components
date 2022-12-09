@@ -22,7 +22,7 @@ metadata:
     system: kubernetes
     lifecycle: production
   annotations:
-    backstage.io/kubernetes-id: banebp-sample
+    backstage.io/kubernetes-id: cicdtooling-idp
 spec:
   lifecycle: production
   owner: cicd
